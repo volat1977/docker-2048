@@ -12,6 +12,7 @@ Base on nginx
 
 #dockerfile
 
+
     FROM alpine:latest
 
     MAINTAINER alex <alexwhen@gmail.com>

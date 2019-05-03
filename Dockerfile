@@ -1,5 +1,5 @@
 FROM alpine:latest
-# test
+
 MAINTAINER alex <komlik.al@gmail.com> 
 
 RUN apk --update add nginx

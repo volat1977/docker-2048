@@ -2,7 +2,7 @@ FROM alpine:latest
 
 MAINTAINER alex <komlik.al@gmail.com> 
 
-RUN apk --update add nginx
+RUN apk update && apk upgrade && apk --update add nginx
 
 COPY 2048 /usr/share/nginx/html
 

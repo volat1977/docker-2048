@@ -1,4 +1,4 @@
-FROM alpine:3.2.0
+FROM alpine:3.2
 
 MAINTAINER alex <komlik.al@gmail.com> 
 

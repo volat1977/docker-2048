@@ -2,7 +2,9 @@ FROM alpine:latest
 
 MAINTAINER alex <komlik.al@gmail.com> 
 
-RUN mkdir -p /run/nginx && apk --update add nginx
+RUN apk --update add nginx
+
+RUN mkdir -p /run/nginx 
 
 COPY 2048 /usr/share/nginx/html
 
